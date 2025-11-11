@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "name": "vivy",
+  "name": "vivy-app",
   "builds": [
     {
       "src": "index.html",
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/([A-Z0-9]{5})",
-      "dest": "/index.html"
+      "source": "/([A-Z0-9]{5})",
+      "destination": "/index.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
