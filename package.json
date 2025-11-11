@@ -1,0 +1,14 @@
+{
+  "name": "vivy-redirect-service",
+  "version": "1.0.0",
+  "description": "Simple redirect service for Vivy app deep links",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["redirect", "deep-links", "vivy", "mobile-app"],
+  "author": "Vivy Team",
+  "license": "MIT"
+}
